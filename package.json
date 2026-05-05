@@ -1,0 +1,21 @@
+{
+  "name": "playwright-scrapling-self-healing",
+  "version": "1.0.0",
+  "description": "Playwright E2E tests with Scrapling-powered self-healing locators",
+  "type": "module",
+  "scripts": {
+    "heal":         "python locator_monitor.py",
+    "heal:js":      "python locator_monitor.py --js",
+    "heal:watch":   "python locator_monitor.py --watch",
+    "test":         "npx playwright test",
+    "test:headed":  "npx playwright test --headed",
+    "test:debug":   "npx playwright test --debug",
+    "test:ui":      "npx playwright test --ui",
+    "report":       "npx playwright show-report",
+    "ci":           "python locator_monitor.py && npx playwright test",
+    "ci:js":        "python locator_monitor.py --js && npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}

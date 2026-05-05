@@ -1,0 +1,497 @@
+2026-04-14 11:05:46,477 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:05:46,478 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:05:46,478 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:05:46,478 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:05:46,478 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 11:05:46,851 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/> (referer: https://www.google.com/)
+2026-04-14 11:14:12,731 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:14:12,737 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:14:12,738 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:14:12,738 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:14:12,824 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 11:14:35,618 [INFO] Fetched (301) <GET https://demo.playwright.dev/todomvc> (referer: https://www.google.com/)
+2026-04-14 11:14:35,635 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/#/> (referer: https://www.google.com/)
+2026-04-14 11:15:41,118 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:15:41,118 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:15:41,119 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:15:41,119 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:15:41,157 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 11:15:42,644 [INFO] Fetched (301) <GET https://demo.playwright.dev/todomvc> (referer: https://www.google.com/)
+2026-04-14 11:15:42,661 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/#/> (referer: https://www.google.com/)
+2026-04-14 11:15:43,124 [ERROR]   ❌  [todo_list] MISSING — adaptive also failed: ul.todo-list
+2026-04-14 11:15:43,124 [ERROR]   ❌  [todo_item] MISSING — adaptive also failed: li.todo
+2026-04-14 11:15:43,124 [ERROR]   ❌  [toggle_all] MISSING — adaptive also failed: input.toggle-all
+2026-04-14 11:15:43,124 [ERROR]   ❌  [app_footer] MISSING — adaptive also failed: footer.footer
+2026-04-14 11:15:43,125 [ERROR]   ❌  [filter_all] MISSING — adaptive also failed: a[href='#/']
+2026-04-14 11:15:43,125 [ERROR]   ❌  [filter_active] MISSING — adaptive also failed: a[href='#/active']
+2026-04-14 11:15:43,125 [ERROR]   ❌  [filter_completed] MISSING — adaptive also failed: a[href='#/completed']
+2026-04-14 11:15:43,125 [ERROR]   ❌  [clear_completed] MISSING — adaptive also failed: button.clear-completed
+2026-04-14 11:15:43,125 [ERROR]   ❌  [todo_count] MISSING — adaptive also failed: span.todo-count
+2026-04-14 11:15:43,126 [INFO] ✅  Saved 10 locators → locators.json
+2026-04-14 11:15:43,126 [INFO] 
+📊  Summary — ✅ OK: 1  🔧 Healed: 0  ❌ Missing: 9
+2026-04-14 11:15:43,126 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 11:21:20,396 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:21:20,397 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:21:20,397 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:21:20,397 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:21:20,433 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 11:21:22,656 [INFO] Fetched (301) <GET https://demo.playwright.dev/todomvc> (referer: https://www.google.com/)
+2026-04-14 11:21:22,672 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/#/> (referer: https://www.google.com/)
+2026-04-14 11:21:23,288 [ERROR]   ❌  [todo_list] MISSING — adaptive also failed: ul.todo-list
+2026-04-14 11:21:23,289 [ERROR]   ❌  [todo_item] MISSING — adaptive also failed: li[data-testid='todo-item']
+2026-04-14 11:21:23,290 [ERROR]   ❌  [toggle_all] MISSING — adaptive also failed: input.toggle-all
+2026-04-14 11:21:23,290 [ERROR]   ❌  [app_footer] MISSING — adaptive also failed: footer.footer
+2026-04-14 11:21:23,291 [ERROR]   ❌  [filter_all] MISSING — adaptive also failed: a[href='#/']
+2026-04-14 11:21:23,291 [ERROR]   ❌  [filter_active] MISSING — adaptive also failed: a[href='#/active']
+2026-04-14 11:21:23,292 [ERROR]   ❌  [filter_completed] MISSING — adaptive also failed: a[href='#/completed']
+2026-04-14 11:21:23,292 [ERROR]   ❌  [clear_completed] MISSING — adaptive also failed: button.clear-completed
+2026-04-14 11:21:23,293 [ERROR]   ❌  [todo_count] MISSING — adaptive also failed: span.todo-count
+2026-04-14 11:21:23,293 [WARNING]   📝  [todo_item] selector changed: 'li.todo'  →  'li[data-testid='todo-item']'
+2026-04-14 11:21:23,295 [INFO] ✅  Saved 10 locators → locators.json
+2026-04-14 11:21:23,295 [INFO] 
+📊  Summary — ✅ OK: 1  🔧 Healed: 0  ❌ Missing: 9
+2026-04-14 11:21:23,295 [WARNING] ⚡  UI changes detected in: todo_item
+2026-04-14 11:23:52,841 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:23:52,841 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:23:52,841 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:23:52,842 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:23:52,842 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 11:23:53,147 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/> (referer: https://www.google.com/)
+2026-04-14 11:23:53,225 [WARNING]   🔧  [new_todo_input] HEALED: 'input.new-todo'  →  'body > section'
+2026-04-14 11:23:53,226 [ERROR]   ❌  [todo_list] MISSING — adaptive also failed: ul.todo-list
+2026-04-14 11:23:53,226 [ERROR]   ❌  [todo_item] MISSING — adaptive also failed: li[data-testid='todo-item']
+2026-04-14 11:23:53,226 [ERROR]   ❌  [toggle_all] MISSING — adaptive also failed: input.toggle-all
+2026-04-14 11:23:53,227 [ERROR]   ❌  [app_footer] MISSING — adaptive also failed: footer.footer
+2026-04-14 11:23:53,227 [ERROR]   ❌  [filter_all] MISSING — adaptive also failed: a[href='#/']
+2026-04-14 11:23:53,227 [ERROR]   ❌  [filter_active] MISSING — adaptive also failed: a[href='#/active']
+2026-04-14 11:23:53,228 [ERROR]   ❌  [filter_completed] MISSING — adaptive also failed: a[href='#/completed']
+2026-04-14 11:23:53,228 [ERROR]   ❌  [clear_completed] MISSING — adaptive also failed: button.clear-completed
+2026-04-14 11:23:53,228 [ERROR]   ❌  [todo_count] MISSING — adaptive also failed: span.todo-count
+2026-04-14 11:23:53,228 [WARNING]   📝  [new_todo_input] selector changed: 'input.new-todo'  →  'body > section'
+2026-04-14 11:23:53,229 [INFO] ✅  Saved 10 locators → locators.json
+2026-04-14 11:23:53,229 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 1  ❌ Missing: 9
+2026-04-14 11:23:53,229 [WARNING] ⚡  UI changes detected in: new_todo_input
+2026-04-14 11:32:59,341 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:32:59,342 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:32:59,342 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:32:59,342 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:32:59,379 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 11:33:01,741 [INFO] Fetched (301) <GET https://demo.playwright.dev/todomvc> (referer: https://www.google.com/)
+2026-04-14 11:33:01,827 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/#/> (referer: https://www.google.com/)
+2026-04-14 11:33:02,344 [ERROR]   ❌  [clear_completed] MISSING — adaptive also failed: button.clear-completed
+2026-04-14 11:33:02,346 [WARNING]   📝  [new_todo_input] selector changed: 'body > section'  →  'input.new-todo'
+2026-04-14 11:33:02,347 [INFO] ✅  Saved 10 locators → locators.json
+2026-04-14 11:33:02,347 [INFO] 
+📊  Summary — ✅ OK: 9  🔧 Healed: 0  ❌ Missing: 1
+2026-04-14 11:33:02,347 [WARNING] ⚡  UI changes detected in: new_todo_input
+2026-04-14 11:33:19,137 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:33:19,137 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:33:19,137 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:33:19,138 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:33:19,171 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 11:33:20,792 [ERROR] Error executing page_action: 'Locator' object is not callable
+2026-04-14 11:33:20,827 [INFO] Fetched (301) <GET https://demo.playwright.dev/todomvc> (referer: https://www.google.com/)
+2026-04-14 11:33:20,852 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/#/> (referer: https://www.google.com/)
+2026-04-14 11:33:21,207 [ERROR]   ❌  [clear_completed] MISSING — adaptive also failed: button.clear-completed
+2026-04-14 11:33:21,208 [INFO] ✅  Saved 10 locators → locators.json
+2026-04-14 11:33:21,208 [INFO] 
+📊  Summary — ✅ OK: 9  🔧 Healed: 0  ❌ Missing: 1
+2026-04-14 11:33:21,208 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 11:33:30,028 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:33:30,028 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:33:30,029 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:33:30,029 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:33:30,062 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 11:33:31,980 [INFO] Fetched (301) <GET https://demo.playwright.dev/todomvc> (referer: https://www.google.com/)
+2026-04-14 11:33:32,011 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/#/> (referer: https://www.google.com/)
+2026-04-14 11:33:32,535 [INFO] ✅  Saved 10 locators → locators.json
+2026-04-14 11:33:32,535 [INFO] 
+📊  Summary — ✅ OK: 10  🔧 Healed: 0  ❌ Missing: 0
+2026-04-14 11:33:32,536 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 11:36:35,885 [INFO] 🕷   Scrapling UI Monitor  |  target: https://demo.playwright.dev/todomvc
+2026-04-14 11:36:35,886 [INFO]      Watching 10 locators  |  mode: single-scan
+2026-04-14 11:36:35,886 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:36:35,887 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:36:35,887 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 11:36:38,111 [INFO] Fetched (200) <GET https://demo.playwright.dev/todomvc/> (referer: https://www.google.com/)
+2026-04-14 11:36:38,178 [WARNING]   🔧  [new_todo_input] HEALED: 'input.new-todo'  →  'body > section'
+2026-04-14 11:36:38,182 [WARNING]   🔧  [todo_list] HEALED: 'ul.todo-list'  →  'body > section'
+2026-04-14 11:36:38,185 [WARNING]   🔧  [todo_item] HEALED: 'li[data-testid='todo-item']'  →  'body > section'
+2026-04-14 11:36:38,189 [WARNING]   🔧  [toggle_all] HEALED: 'input.toggle-all'  →  'body > section'
+2026-04-14 11:36:38,193 [WARNING]   🔧  [app_footer] HEALED: 'footer.footer'  →  'body > footer'
+2026-04-14 11:36:38,197 [WARNING]   🔧  [filter_all] HEALED: 'a[href='#/']'  →  'body > footer > p:nth-of-type(3) > a'
+2026-04-14 11:36:38,201 [WARNING]   🔧  [filter_active] HEALED: 'a[href='#/active']'  →  'body > footer > p:nth-of-type(2) > a'
+2026-04-14 11:36:38,205 [WARNING]   🔧  [filter_completed] HEALED: 'a[href='#/completed']'  →  'body > footer > p:nth-of-type(2) > a'
+2026-04-14 11:36:38,208 [WARNING]   🔧  [clear_completed] HEALED: 'button.clear-completed'  →  'body > footer > p:nth-of-type(2)'
+2026-04-14 11:36:38,212 [WARNING]   🔧  [todo_count] HEALED: 'span.todo-count'  →  'body > footer > p'
+2026-04-14 11:36:38,212 [WARNING]   📝  [new_todo_input] selector changed: 'input.new-todo'  →  'body > section'
+2026-04-14 11:36:38,212 [WARNING]   📝  [todo_list] selector changed: 'ul.todo-list'  →  'body > section'
+2026-04-14 11:36:38,212 [WARNING]   📝  [todo_item] selector changed: 'li[data-testid='todo-item']'  →  'body > section'
+2026-04-14 11:36:38,213 [WARNING]   📝  [toggle_all] selector changed: 'input.toggle-all'  →  'body > section'
+2026-04-14 11:36:38,213 [WARNING]   📝  [app_footer] selector changed: 'footer.footer'  →  'body > footer'
+2026-04-14 11:36:38,213 [WARNING]   📝  [filter_all] selector changed: 'a[href='#/']'  →  'body > footer > p:nth-of-type(3) > a'
+2026-04-14 11:36:38,213 [WARNING]   📝  [filter_active] selector changed: 'a[href='#/active']'  →  'body > footer > p:nth-of-type(2) > a'
+2026-04-14 11:36:38,214 [WARNING]   📝  [filter_completed] selector changed: 'a[href='#/completed']'  →  'body > footer > p:nth-of-type(2) > a'
+2026-04-14 11:36:38,214 [WARNING]   📝  [clear_completed] selector changed: 'button.clear-completed'  →  'body > footer > p:nth-of-type(2)'
+2026-04-14 11:36:38,214 [WARNING]   📝  [todo_count] selector changed: 'span.todo-count'  →  'body > footer > p'
+2026-04-14 11:36:38,215 [INFO] ✅  Saved 10 locators → locators.json
+2026-04-14 11:36:38,215 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 10  ❌ Missing: 0
+2026-04-14 11:36:38,216 [WARNING] ⚡  UI changes detected in: new_todo_input, todo_list, todo_item, toggle_all, app_footer, filter_all, filter_active, filter_completed, clear_completed, todo_count
+2026-04-14 11:57:48,687 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 11:57:48,687 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 11:57:48,687 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 11:57:48,688 [INFO] 🔍  Scanning for locator health…
+2026-04-14 11:57:48,716 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 11:57:55,009 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 11:57:56,032 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 11:57:56,033 [INFO] 
+📊  Summary — ✅ OK: 12  🔧 Healed: 0  ❌ Missing: 0
+2026-04-14 11:57:56,033 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 12:55:44,912 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 12:55:44,913 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 12:55:44,913 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 12:55:44,913 [INFO] 🔍  Scanning for locator health…
+2026-04-14 12:55:44,913 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 12:55:46,025 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 12:55:46,050 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 12:55:46,051 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-14 12:55:46,053 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-14 12:55:46,057 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-14 12:55:46,058 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-14 12:55:46,059 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-14 12:55:46,061 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-14 12:55:46,062 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 12:55:46,063 [WARNING]   🔧  [sign_in_button] HEALED: 'button.btn-primary'  →  'head > script'
+2026-04-14 12:55:46,064 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-14 12:55:46,066 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 12:55:46,067 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 12:55:46,067 [WARNING]   📝  [hero_heading] selector changed: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 12:55:46,068 [WARNING]   📝  [view_app_details_btn] selector changed: 'button.bg-secondary'  →  '#app'
+2026-04-14 12:55:46,068 [WARNING]   📝  [mode_radio_group] selector changed: '#radio-mode-type'  →  '#app'
+2026-04-14 12:55:46,068 [WARNING]   📝  [in_person_card] selector changed: 'button[value='in-person']'  →  'head > script'
+2026-04-14 12:55:46,068 [WARNING]   📝  [online_card] selector changed: 'button[value='online']'  →  'head > script'
+2026-04-14 12:55:46,068 [WARNING]   📝  [degree_card] selector changed: 'button[value='DG']'  →  '#app'
+2026-04-14 12:55:46,068 [WARNING]   📝  [nondegree_card] selector changed: 'button[value='NDG']'  →  '#app'
+2026-04-14 12:55:46,068 [WARNING]   📝  [continue_button] selector changed: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 12:55:46,068 [WARNING]   📝  [sign_in_button] selector changed: 'button.btn-primary'  →  'head > script'
+2026-04-14 12:55:46,069 [WARNING]   📝  [app_details_section] selector changed: '#application-details'  →  '#app'
+2026-04-14 12:55:46,069 [WARNING]   📝  [contact_email] selector changed: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 12:55:46,069 [WARNING]   📝  [footer_services] selector changed: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 12:55:46,070 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 12:55:46,070 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-14 12:55:46,070 [WARNING] ⚡  UI changes detected in: hero_heading, view_app_details_btn, mode_radio_group, in_person_card, online_card, degree_card, nondegree_card, continue_button, sign_in_button, app_details_section, contact_email, footer_services
+2026-04-14 12:58:55,200 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 12:58:55,201 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 12:58:55,201 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 12:58:55,201 [INFO] 🔍  Scanning for locator health…
+2026-04-14 12:58:55,201 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 12:58:55,310 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 12:58:55,340 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 12:58:55,343 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-14 12:58:55,346 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-14 12:58:55,349 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-14 12:58:55,352 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-14 12:58:55,355 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-14 12:58:55,357 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-14 12:58:55,359 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 12:58:55,361 [WARNING]   🔧  [sign_in_button] HEALED: 'button.btn-primary'  →  'head > script'
+2026-04-14 12:58:55,362 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-14 12:58:55,364 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 12:58:55,365 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 12:58:55,366 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 12:58:55,366 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-14 12:58:55,366 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 13:20:54,529 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 13:20:54,529 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 13:20:54,529 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 13:20:54,529 [INFO] 🔍  Scanning for locator health…
+2026-04-14 13:20:54,558 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 13:20:58,018 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 13:20:58,343 [WARNING]   🔧  [sign_in_button] HEALED: 'button.btn-primary'  →  '#main-content > section:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > a'
+2026-04-14 13:20:58,349 [WARNING]   📝  [hero_heading] selector changed: 'body > noscript'  →  'h1.h1-large'
+2026-04-14 13:20:58,349 [WARNING]   📝  [view_app_details_btn] selector changed: '#app'  →  'button.bg-secondary'
+2026-04-14 13:20:58,349 [WARNING]   📝  [mode_radio_group] selector changed: '#app'  →  '#radio-mode-type'
+2026-04-14 13:20:58,349 [WARNING]   📝  [in_person_card] selector changed: 'head > script'  →  'button[value='in-person']'
+2026-04-14 13:20:58,349 [WARNING]   📝  [online_card] selector changed: 'head > script'  →  'button[value='online']'
+2026-04-14 13:20:58,349 [WARNING]   📝  [degree_card] selector changed: '#app'  →  'button[value='DG']'
+2026-04-14 13:20:58,349 [WARNING]   📝  [nondegree_card] selector changed: '#app'  →  'button[value='NDG']'
+2026-04-14 13:20:58,349 [WARNING]   📝  [continue_button] selector changed: '#app'  →  '[data-cy='user-create-account-create-account-button']'
+2026-04-14 13:20:58,349 [WARNING]   📝  [sign_in_button] selector changed: 'head > script'  →  '#main-content > section:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > a'
+2026-04-14 13:20:58,349 [WARNING]   📝  [app_details_section] selector changed: '#app'  →  '#application-details'
+2026-04-14 13:20:58,349 [WARNING]   📝  [contact_email] selector changed: 'head > link:nth-of-type(2)'  →  'a[href='mailto:admissions@asu.edu']'
+2026-04-14 13:20:58,349 [WARNING]   📝  [footer_services] selector changed: '#app'  →  '[data-cy='default-footer-university-services-menu']'
+2026-04-14 13:20:58,350 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 13:20:58,350 [INFO] 
+📊  Summary — ✅ OK: 11  🔧 Healed: 1  ❌ Missing: 0
+2026-04-14 13:20:58,350 [WARNING] ⚡  UI changes detected in: hero_heading, view_app_details_btn, mode_radio_group, in_person_card, online_card, degree_card, nondegree_card, continue_button, sign_in_button, app_details_section, contact_email, footer_services
+2026-04-14 13:27:58,699 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 13:27:58,699 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 13:27:58,699 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 13:27:58,699 [INFO] 🔍  Scanning for locator health…
+2026-04-14 13:27:58,720 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 13:28:01,794 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 13:28:02,114 [WARNING]   📝  [sign_in_button] selector changed: '#main-content > section:nth-of-type(3) > div > div > div > div > div:nth-of-type(2) > div > a'  →  'a[href='/user/login']'
+2026-04-14 13:28:02,115 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 13:28:02,116 [INFO] 
+📊  Summary — ✅ OK: 12  🔧 Healed: 0  ❌ Missing: 0
+2026-04-14 13:28:02,116 [WARNING] ⚡  UI changes detected in: sign_in_button
+2026-04-14 13:30:23,169 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 13:30:23,169 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 13:30:23,169 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 13:30:23,169 [INFO] 🔍  Scanning for locator health…
+2026-04-14 13:30:23,181 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 13:30:26,506 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 13:30:26,858 [WARNING]   📝  [sign_in_button] selector changed: 'a[href='/user/login']'  →  'a.btn-primary[href='/user/login']'
+2026-04-14 13:30:26,859 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 13:30:26,859 [INFO] 
+📊  Summary — ✅ OK: 12  🔧 Healed: 0  ❌ Missing: 0
+2026-04-14 13:30:26,859 [WARNING] ⚡  UI changes detected in: sign_in_button
+2026-04-14 14:05:55,040 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 14:05:55,040 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 14:05:55,040 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 14:05:55,041 [INFO] 🔍  Scanning for locator health…
+2026-04-14 14:05:55,041 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 14:05:55,922 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 14:05:55,973 [ERROR]   ❌  [hero_heading] MISSING — adaptive also failed: h1.h1-large
+2026-04-14 14:05:55,974 [ERROR]   ❌  [view_app_details_btn] MISSING — adaptive also failed: button.bg-secondary
+2026-04-14 14:05:55,974 [ERROR]   ❌  [mode_radio_group] MISSING — adaptive also failed: #radio-mode-type
+2026-04-14 14:05:55,974 [ERROR]   ❌  [in_person_card] MISSING — adaptive also failed: button[value='in-person']
+2026-04-14 14:05:55,974 [ERROR]   ❌  [online_card] MISSING — adaptive also failed: button[value='online']
+2026-04-14 14:05:55,975 [ERROR]   ❌  [degree_card] MISSING — adaptive also failed: button[value='DG']
+2026-04-14 14:05:55,975 [ERROR]   ❌  [nondegree_card] MISSING — adaptive also failed: button[value='NDG']
+2026-04-14 14:05:55,975 [ERROR]   ❌  [continue_button] MISSING — adaptive also failed: [data-cy='user-create-account-create-account-button']
+2026-04-14 14:05:55,975 [ERROR]   ❌  [sign_in_button] MISSING — adaptive also failed: a.btn-primary[href='/user/login']
+2026-04-14 14:05:55,975 [ERROR]   ❌  [app_details_section] MISSING — adaptive also failed: #application-details
+2026-04-14 14:05:55,975 [ERROR]   ❌  [contact_email] MISSING — adaptive also failed: a[href='mailto:admissions@asu.edu']
+2026-04-14 14:05:55,975 [ERROR]   ❌  [footer_services] MISSING — adaptive also failed: [data-cy='default-footer-university-services-menu']
+2026-04-14 14:05:55,977 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 14:05:55,977 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 0  ❌ Missing: 12
+2026-04-14 14:05:55,977 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 14:06:11,228 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 14:06:11,228 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 14:06:11,228 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 14:06:11,228 [INFO] 🔍  Scanning for locator health…
+2026-04-14 14:06:11,267 [INFO] 🌐  Fetching with DynamicFetcher (JS rendering)…
+2026-04-14 14:06:15,970 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 14:06:16,267 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 14:06:16,267 [INFO] 
+📊  Summary — ✅ OK: 12  🔧 Healed: 0  ❌ Missing: 0
+2026-04-14 14:06:16,267 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 14:06:26,151 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 14:06:26,151 [INFO]      Watching 12 locators  |  mode: watch
+2026-04-14 14:06:26,151 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 14:06:26,151 [INFO] 🔍  Scanning for locator health…
+2026-04-14 14:06:26,151 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 14:06:26,247 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 14:06:26,278 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 14:06:26,283 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-14 14:06:26,283 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-14 14:06:26,285 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-14 14:06:26,287 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-14 14:06:26,287 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-14 14:06:26,288 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-14 14:06:26,290 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 14:06:26,291 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:06:26,293 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-14 14:06:26,294 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:06:26,295 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 14:06:26,295 [WARNING]   📝  [hero_heading] selector changed: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 14:06:26,296 [WARNING]   📝  [view_app_details_btn] selector changed: 'button.bg-secondary'  →  '#app'
+2026-04-14 14:06:26,296 [WARNING]   📝  [mode_radio_group] selector changed: '#radio-mode-type'  →  '#app'
+2026-04-14 14:06:26,296 [WARNING]   📝  [in_person_card] selector changed: 'button[value='in-person']'  →  'head > script'
+2026-04-14 14:06:26,296 [WARNING]   📝  [online_card] selector changed: 'button[value='online']'  →  'head > script'
+2026-04-14 14:06:26,296 [WARNING]   📝  [degree_card] selector changed: 'button[value='DG']'  →  '#app'
+2026-04-14 14:06:26,296 [WARNING]   📝  [nondegree_card] selector changed: 'button[value='NDG']'  →  '#app'
+2026-04-14 14:06:26,296 [WARNING]   📝  [continue_button] selector changed: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 14:06:26,296 [WARNING]   📝  [sign_in_button] selector changed: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:06:26,297 [WARNING]   📝  [app_details_section] selector changed: '#application-details'  →  '#app'
+2026-04-14 14:06:26,297 [WARNING]   📝  [contact_email] selector changed: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:06:26,297 [WARNING]   📝  [footer_services] selector changed: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 14:06:26,297 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 14:06:26,297 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-14 14:06:26,297 [WARNING] ⚡  UI changes detected in: hero_heading, view_app_details_btn, mode_radio_group, in_person_card, online_card, degree_card, nondegree_card, continue_button, sign_in_button, app_details_section, contact_email, footer_services
+2026-04-14 14:06:26,297 [INFO] 💤  Next scan in 60s  (Ctrl+C to stop)…
+2026-04-14 14:07:26,298 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 14:07:26,298 [INFO] 🔍  Scanning for locator health…
+2026-04-14 14:07:26,298 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 14:07:26,365 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 14:07:26,375 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 14:07:26,375 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-14 14:07:26,377 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-14 14:07:26,378 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-14 14:07:26,379 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-14 14:07:26,380 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-14 14:07:26,384 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-14 14:07:26,385 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 14:07:26,388 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:07:26,389 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-14 14:07:26,393 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:07:26,395 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 14:07:26,396 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 14:07:26,396 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-14 14:07:26,396 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 14:07:26,396 [INFO] 💤  Next scan in 60s  (Ctrl+C to stop)…
+2026-04-14 14:08:26,398 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 14:08:26,398 [INFO] 🔍  Scanning for locator health…
+2026-04-14 14:08:26,400 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 14:08:26,497 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 14:08:26,511 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 14:08:26,512 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-14 14:08:26,514 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-14 14:08:26,515 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-14 14:08:26,515 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-14 14:08:26,518 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-14 14:08:26,518 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-14 14:08:26,519 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 14:08:26,521 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:08:26,522 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-14 14:08:26,523 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:08:26,525 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 14:08:26,526 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 14:08:26,526 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-14 14:08:26,526 [INFO] ✅  No locator changes vs. previous run.
+2026-04-14 14:08:26,526 [INFO] 💤  Next scan in 60s  (Ctrl+C to stop)…
+2026-04-14 14:09:50,295 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-14 14:09:50,295 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-14 14:09:50,295 [INFO] ────────────────────────────────────────────────────────────
+2026-04-14 14:09:50,295 [INFO] 🔍  Scanning for locator health…
+2026-04-14 14:09:50,295 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-14 14:09:50,410 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-14 14:09:50,440 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-14 14:09:50,441 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-14 14:09:50,442 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-14 14:09:50,443 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-14 14:09:50,443 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-14 14:09:50,445 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-14 14:09:50,447 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-14 14:09:50,448 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-14 14:09:50,449 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:09:50,451 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-14 14:09:50,452 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(2)'
+2026-04-14 14:09:50,453 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-14 14:09:50,453 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-14 14:09:50,453 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-14 14:09:50,453 [INFO] ✅  No locator changes vs. previous run.
+2026-04-28 19:24:32,083 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-28 19:24:32,085 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-28 19:24:32,085 [INFO] ────────────────────────────────────────────────────────────
+2026-04-28 19:24:32,085 [INFO] 🔍  Scanning for locator health…
+2026-04-28 19:24:32,085 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-28 19:24:32,404 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-28 19:24:32,467 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-28 19:24:32,473 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-28 19:24:32,474 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-28 19:24:32,480 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-28 19:24:32,484 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-28 19:24:32,487 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-28 19:24:32,492 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-28 19:24:32,494 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-28 19:24:32,499 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(27)'
+2026-04-28 19:24:32,505 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-28 19:24:32,509 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(37)'
+2026-04-28 19:24:32,515 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-28 19:24:32,515 [WARNING]   📝  [sign_in_button] selector changed: 'head > link:nth-of-type(2)'  →  'head > link:nth-of-type(27)'
+2026-04-28 19:24:32,515 [WARNING]   📝  [contact_email] selector changed: 'head > link:nth-of-type(2)'  →  'head > link:nth-of-type(37)'
+2026-04-28 19:24:32,519 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-28 19:24:32,519 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-28 19:24:32,519 [WARNING] ⚡  UI changes detected in: sign_in_button, contact_email
+2026-04-28 19:41:17,357 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-28 19:41:17,357 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-28 19:41:17,357 [INFO] ────────────────────────────────────────────────────────────
+2026-04-28 19:41:17,357 [INFO] 🔍  Scanning for locator health…
+2026-04-28 19:41:17,359 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-28 19:41:17,655 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-28 19:41:17,687 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-28 19:41:17,691 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-28 19:41:17,694 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-28 19:41:17,699 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-28 19:41:17,702 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-28 19:41:17,708 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-28 19:41:17,712 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-28 19:41:17,715 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-28 19:41:17,721 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(27)'
+2026-04-28 19:41:17,724 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-28 19:41:17,731 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(37)'
+2026-04-28 19:41:17,735 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-28 19:41:17,736 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-28 19:41:17,736 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-28 19:41:17,736 [INFO] ✅  No locator changes vs. previous run.
+2026-04-28 19:42:00,351 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-28 19:42:00,351 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-28 19:42:00,351 [INFO] ────────────────────────────────────────────────────────────
+2026-04-28 19:42:00,351 [INFO] 🔍  Scanning for locator health…
+2026-04-28 19:42:00,351 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-28 19:42:00,410 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-28 19:42:00,443 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-28 19:42:00,446 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-28 19:42:00,449 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-28 19:42:00,455 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-28 19:42:00,459 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-28 19:42:00,462 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-28 19:42:00,465 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-28 19:42:00,470 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-28 19:42:00,472 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(27)'
+2026-04-28 19:42:00,480 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-28 19:42:00,486 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(37)'
+2026-04-28 19:42:00,489 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-28 19:42:00,492 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-28 19:42:00,492 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-28 19:42:00,492 [INFO] ✅  No locator changes vs. previous run.
+2026-04-28 19:47:03,202 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-28 19:47:03,202 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-28 19:47:03,202 [INFO] ────────────────────────────────────────────────────────────
+2026-04-28 19:47:03,202 [INFO] 🔍  Scanning for locator health…
+2026-04-28 19:47:03,202 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-28 19:47:03,671 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-28 19:47:03,702 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-28 19:47:03,708 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-28 19:47:03,717 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-28 19:47:03,721 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-28 19:47:03,725 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-28 19:47:03,730 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-28 19:47:03,736 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-28 19:47:03,742 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-28 19:47:03,748 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(27)'
+2026-04-28 19:47:03,750 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-28 19:47:03,759 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(37)'
+2026-04-28 19:47:03,759 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-28 19:47:03,764 [WARNING]   📝  [sign_in_button] selector changed: '.btn-primary'  →  'head > link:nth-of-type(27)'
+2026-04-28 19:47:03,764 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-28 19:47:03,765 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-28 19:47:03,765 [WARNING] ⚡  UI changes detected in: sign_in_button
+2026-04-28 19:47:21,222 [INFO] 🕷   Scrapling UI Monitor  |  target: https://apply-qa.apps.asu.edu/
+2026-04-28 19:47:21,222 [INFO]      Watching 12 locators  |  mode: single-scan
+2026-04-28 19:47:21,222 [INFO] ────────────────────────────────────────────────────────────
+2026-04-28 19:47:21,224 [INFO] 🔍  Scanning for locator health…
+2026-04-28 19:47:21,224 [INFO] 🌐  Fetching with Fetcher (HTTP)…
+2026-04-28 19:47:21,299 [INFO] Fetched (200) <GET https://apply-qa.apps.asu.edu/> (referer: https://www.google.com/)
+2026-04-28 19:47:21,331 [WARNING]   🔧  [hero_heading] HEALED: 'h1.h1-large'  →  'body > noscript'
+2026-04-28 19:47:21,335 [WARNING]   🔧  [view_app_details_btn] HEALED: 'button.bg-secondary'  →  '#app'
+2026-04-28 19:47:21,342 [WARNING]   🔧  [mode_radio_group] HEALED: '#radio-mode-type'  →  '#app'
+2026-04-28 19:47:21,344 [WARNING]   🔧  [in_person_card] HEALED: 'button[value='in-person']'  →  'head > script'
+2026-04-28 19:47:21,349 [WARNING]   🔧  [online_card] HEALED: 'button[value='online']'  →  'head > script'
+2026-04-28 19:47:21,354 [WARNING]   🔧  [degree_card] HEALED: 'button[value='DG']'  →  '#app'
+2026-04-28 19:47:21,357 [WARNING]   🔧  [nondegree_card] HEALED: 'button[value='NDG']'  →  '#app'
+2026-04-28 19:47:21,360 [WARNING]   🔧  [continue_button] HEALED: '[data-cy='user-create-account-create-account-button']'  →  '#app'
+2026-04-28 19:47:21,364 [WARNING]   🔧  [sign_in_button] HEALED: 'a.btn-primary[href='/user/login']'  →  'head > link:nth-of-type(27)'
+2026-04-28 19:47:21,371 [WARNING]   🔧  [app_details_section] HEALED: '#application-details'  →  '#app'
+2026-04-28 19:47:21,409 [WARNING]   🔧  [contact_email] HEALED: 'a[href='mailto:admissions@asu.edu']'  →  'head > link:nth-of-type(37)'
+2026-04-28 19:47:21,414 [WARNING]   🔧  [footer_services] HEALED: '[data-cy='default-footer-university-services-menu']'  →  '#app'
+2026-04-28 19:47:21,414 [INFO] ✅  Saved 12 locators → locators.json
+2026-04-28 19:47:21,414 [INFO] 
+📊  Summary — ✅ OK: 0  🔧 Healed: 12  ❌ Missing: 0
+2026-04-28 19:47:21,414 [INFO] ✅  No locator changes vs. previous run.

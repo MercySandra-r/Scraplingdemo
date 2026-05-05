@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-04-28T14:17:21.414070+00:00",
+  "target_url": "https://apply-qa.apps.asu.edu/",
+  "locators": {
+    "hero_heading": {
+      "original": "h1.h1-large",
+      "current": "body > noscript",
+      "generated": "body > noscript",
+      "status": "healed"
+    },
+    "view_app_details_btn": {
+      "original": "button.bg-secondary",
+      "current": "#app",
+      "generated": "#app",
+      "status": "healed"
+    },
+    "mode_radio_group": {
+      "original": "#radio-mode-type",
+      "current": "#app",
+      "generated": "#app",
+      "status": "healed"
+    },
+    "in_person_card": {
+      "original": "button[value='in-person']",
+      "current": "head > script",
+      "generated": "head > script",
+      "status": "healed"
+    },
+    "online_card": {
+      "original": "button[value='online']",
+      "current": "head > script",
+      "generated": "head > script",
+      "status": "healed"
+    },
+    "degree_card": {
+      "original": "button[value='DG']",
+      "current": "#app",
+      "generated": "#app",
+      "status": "healed"
+    },
+    "nondegree_card": {
+      "original": "button[value='NDG']",
+      "current": "#app",
+      "generated": "#app",
+      "status": "healed"
+    },
+    "continue_button": {
+      "original": "[data-cy='user-create-account-create-account-button']",
+      "current": "#app",
+      "generated": "#app",
+      "status": "healed"
+    },
+    "sign_in_button": {
+      "original": "a.btn-primary[href='/user/login']",
+      "current": "head > link:nth-of-type(27)",
+      "generated": "head > link:nth-of-type(27)",
+      "status": "healed"
+    },
+    "app_details_section": {
+      "original": "#application-details",
+      "current": "#app",
+      "generated": "#app",
+      "status": "healed"
+    },
+    "contact_email": {
+      "original": "a[href='mailto:admissions@asu.edu']",
+      "current": "head > link:nth-of-type(37)",
+      "generated": "head > link:nth-of-type(37)",
+      "status": "healed"
+    },
+    "footer_services": {
+      "original": "[data-cy='default-footer-university-services-menu']",
+      "current": "#app",
+      "generated": "#app",
+      "status": "healed"
+    }
+  }
+}

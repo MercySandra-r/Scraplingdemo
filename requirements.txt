@@ -1,0 +1,5 @@
+# Scrapling — adaptive web scraping with self-healing selectors
+scrapling[fetchers]>=0.3.14
+
+# requests is included in scrapling's deps but listed explicitly for clarity
+requests>=2.31.0
